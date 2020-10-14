@@ -21,3 +21,5 @@ Cafe Local is a neighborhood's destination.
   * slider 
   * direction button 
   * content 
+  
+  **in progress...**
