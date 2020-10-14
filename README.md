@@ -1,26 +1,23 @@
-##Portfolio
-##Nucamp Bootcamp
-##Author - Bislam S.
-
+# Cafe Local 
 Cafe Local is a neighborhood's destination.
 
-##Project Progress 
-Project setup:
-  npm init - [x]
-  install bootstrap - [x]
-  install fontAwesome - [x]
-  install google fonts - [x]
-  create html file - [x]
-  create css file - [x]
-  prepare content - [x]
+# Project Progress 
+**Project setup:**
+  * npm init 
+  * install bootstrap
+  * install fontAwesome 
+  * install google fonts 
+  * create html file
+  * create css file
+  * prepare content 
 
-Navigation:
-  responsive - [x]
-  font icon - [x]
 
-First scroll(Home):
-  slider - [x]
-  direction button - [x]
-  content - [x]
-  
+**Navigation:**
+  * responsive 
+  * font icon 
 
+
+**First scroll(Home):**
+  * slider 
+  * direction button 
+  * content 
