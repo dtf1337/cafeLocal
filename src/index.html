@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------BOOTSTRAP---------------------->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!------------------FONTAWESOME---------------------->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!------------------GOOGLE-FONTS---------------------->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!------------------FAVICONS---------------------->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!------------------CSS---------------------->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Cafe - Local</title>
+</head>
+<body>
+    <!-------------Navbar----------------->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html" ><i class="fa fa-coffee ml-4" style="font-size: 2.5rem;"></i></a>
+            <a style="font-size: 1.7rem; color: black; margin-right: 2rem;" href="./index.html"><h2 class="d-xs-block d-lg-none">Local</h2></a>
+            <button class="navbar-toggler" style="outline: none;" type="button" data-toggle="collapse" data-target="#cafeNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="cafeNavbar">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link icon-link">
+                            home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-link">
+                            menu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-link">
+                            direction
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-link">
+                            community
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------Header----------------->
+    <header id="home">
+        <!--------carousel-------->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" xc="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active" style="background-image: url('./img/latte.jpg')">
+            <div class="carousel-caption">
+              <!--------tooltip-------->
+              <a href="#" role="button" class="btn btn-lg btn-light text-black mb-3" data-toggle="tooltip" data-html="true" title="Or call us at<br><strong>1-205-555-1234</strong>" data-placement="bottom">
+                    Direction
+              </a>
+              <h2 class="display-4">Brewing with love</h2>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, odio?</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('./img/coffee-machine.jpg')">
+            <div class="carousel-caption">
+              <!--------tooltip-------->
+              <a href="#" role="button" class="btn btn-lg btn-light text-black mb-3" data-toggle="tooltip" data-html="true" title="Or call us at<br><strong>1-205-555-1234</strong>" data-placement="bottom">
+                Direction
+              </a>
+              <h2 class="display-4">A new experience every day</h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ipsa.</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('./img/people.jpg')">
+            <div class="carousel-caption">
+              <!--------tooltip-------->
+              <a href="#" role="button" class="btn btn-lg btn-light text-black mb-3" data-toggle="tooltip" data-html="true" title="Or call us at<br><strong>1-205-555-1234</strong>" data-placement="bottom">
+                Direction
+              </a>
+              <h2 class="display-4">Amazing people. Amazing Coffee.</h2>
+              <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, exercitationem!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+       </a>
+      </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
