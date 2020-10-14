@@ -1,7 +1,6 @@
-## Cafe - Local  
-##Portfolio pr
-##Nucamp Bootcamp
-##Author - Bislam S.
+#Portfolio
+#Nucamp Bootcamp
+#Author - Bislam S.
 
 Cafe Local is a neighborhood's destination.
 
