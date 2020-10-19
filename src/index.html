@@ -2,7 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!------------------BOOTSTRAP---------------------->
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!------------------FONTAWESOME---------------------->
@@ -23,13 +22,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!------------------CSS---------------------->
     <link rel="stylesheet" href="./style.css">
-
     <title>Cafe - Local</title>
 </head>
 <body>
@@ -49,17 +46,17 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link icon-link">
+                        <a href="#menu" class="nav-link icon-link">
                             menu
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link icon-link">
+                        <a href="#direction" class="nav-link icon-link">
                             direction
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link icon-link">
+                        <a href="#community" class="nav-link icon-link">
                             community
                         </a>
                     </li>
@@ -121,13 +118,138 @@
     </header>
 
     <!-------------Menu----------------->
-    <div class="container">
-      
+    <div class="container" id="menu">
+      <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-10 pb-5 text-center">
+          <h1 class="quicksand-font header text-uppercase">Menu</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 pb-5 text-center">
+          <h4 class="text-center quicksand-font text-uppercase">DRINKS</h4>
+          <p class="text-uppercase">Latte</p>
+          <p class="text-uppercase">Espresso</p>
+          <p class="text-uppercase">Coffee Beans(ask at counter)</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 pb-5 text-center">
+          <h4 class="text-center quicksand-font text-uppercase">Pastry</h4>
+          <p class="text-uppercase">Sweet Pastry(ask at counter)</p>
+          <p class="text-uppercase">Meet Pastry(ask at counter)</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 pb-5 text-center">
+          <h4 class="text-center quicksand-font text-uppercase">Dessert</h4>
+          <p class="text-uppercase">Chocolate Soufflet</p>
+          <p class="text-uppercase">Strawberry and Vanilla Sorbet</p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-10 pb-5 text-center">
+          <h4 class="text-center quicksand-font text-uppercase">Lunch</h4>
+          <p class="text-uppercase">Pomegranate Chicken Salad</p>
+          <p class="text-uppercase">Thai BLT sandwitch</p>
+        </div>
+      </div>
     </div>
 
+    <!-------------Direction----------------->
+    <div class="container" id="direction">
+      <div class="row">
+        <div class="col text-center mt-4">
+          <h1>Direction</h1>
+          <hr/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col align-items-center mt-4">
+          <div id="map"> </div>      
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-4 text-center">
+          <h2>Contact us</h2>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-lg-8">
+           <!--- contact form --->
+            <form>
+                <div class="form-group row">
+                    <label for="firstName" class="col-lg-2 col-form-label">First Name</label>
+                    <div class="col">
+                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-lg-2 col-form-label">Last Name</label>
+                    <div class="col">
+                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="areaCode" class="col-lg-2 col-form-label">Cell</label>
+                    <div class="col">
+                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                    </div>
+                    <div class="col">
+                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-lg-2 col-form-label">Email</label>
+                    <div class="col">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col offset-md-2">
+                        May we contact you?
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                            <label for="contactYes" class="form-check-label">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                            <label for="contactNo" class="form-check-label">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                    <div class="col-md-10">
+                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10 ">
+                        <button role="button" type="submit" class="btn btn-primary">Send Feedback</button>                        </div>
+                </div>
+            </form>
+        </div>
+        <div class="col text-center order-first order-lg-last">
+          <p><i class="fa fa-phone mr-2" style="font-size: 1rem;"></i>+1(720)-228-1337 <br>
+          </p>
+          <p><i class="fa fa-envelope mr-2" style="font-size: 1rem;"></i>privet@xyi.com</p>
+        </div>
+      </div>
+    </div>
+ 
+
+    <!------------jQUERY----------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!------------POPPER----------------->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <!------------BOOTSTRAP----------------->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!------------GOOGLE MAPS----------------->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtnw87PwIpm74AE20ormM3Zr0lOm43ZwA&callback=initMap"
+    type="text/javascript"></script>
+    <!------------SCRIPT----------------->
     <script src="./index.js"></script>
 </body>
 </html>

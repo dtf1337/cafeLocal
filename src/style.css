@@ -25,7 +25,8 @@ nav {
 } 
 
 
-
-/* .menuItem{
-    height: 250px;
-} */
+/* ///// GOOGLE MAPS///// */
+#map{
+    height: 400px;
+    width: auto;
+  }
