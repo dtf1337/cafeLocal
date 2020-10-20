@@ -7,16 +7,19 @@ body{
 
 /* ///// HEADER///// */
 .carousel-item {
-    height: 90vh;
     overflow: hidden;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+
+} 
   .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
+}
+#firstCarousel{
+    height: 90vh;
 }
 
 /* ///// NAVBAR///// */
@@ -30,3 +33,12 @@ nav {
     height: 400px;
     width: auto;
   }
+
+/* ///// FOOTER///// */
+footer{
+    font-size: 1.3rem;
+}
+.fab{
+    color: black;
+
+}
