@@ -1,5 +1,5 @@
 # Cafe Local 
-Cafe Local is a neighborhood's destination.
+Cafe Local is a neighborhood's destination.This project based on bootstrap
 
 # Project Progress 
 **Project setup:**
@@ -17,9 +17,19 @@ Cafe Local is a neighborhood's destination.
   * font icon 
 
 
-**First scroll(Home):**
+**HOME:**
   * slider 
   * direction button 
   * content 
   
+  
+**Cafe - MENU:**
+  * responsive content
+  
+**DIRECTION:**
+  * Google Maps API
+  * contact form 
+ 
+  
+     
   **in progress...**
