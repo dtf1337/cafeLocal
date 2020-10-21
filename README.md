@@ -18,7 +18,7 @@ Cafe Local is a neighborhood's destination.This project based on bootstrap
 
 
 **HOME:**
-  * slider 
+  * Bootstrap carousel slider 
   * direction button 
   * content 
   
@@ -30,6 +30,10 @@ Cafe Local is a neighborhood's destination.This project based on bootstrap
   * Google Maps API
   * contact form 
  
-  
+**COMMUNITY:**
+  * Bootstrap carousel slider
+
+ **FOOTER:**
+  * Bootstrap footer
      
-  **in progress...**
+  
