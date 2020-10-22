@@ -4,6 +4,7 @@
   "description": "website",
   "main": "index.js",
   "scripts": {
+    "build": "npm build"
   },
   "author": "Bislam S.",
   "license": "ISC",
