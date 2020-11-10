@@ -4,7 +4,11 @@
   "description": "website",
   "main": "index.js",
   "scripts": {
-    "build": "npm run  build"
+    "imagemin": "imagemin ./img/* --out-dir dist/img/",
+    "usemin": "usemin ./index.html -d dist -o dist/index.html --htmlmin true",
+    "copyfonts": "copyfiles -f 'node_modules/@fortawesome/fontawesome-free/webfonts/*' 'dist/fonts'",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "author": "Bislam S.",
   "license": "ISC",
@@ -15,6 +19,11 @@
     "webkit": "0.0.0"
   },
   "devDependencies": {
-    "dotenv": "^8.2.0"
+    "copyfiles": "^2.4.0",
+    "dotenv": "^8.2.0",
+    "imagemin-cli": "^6.0.0",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   }
 }
